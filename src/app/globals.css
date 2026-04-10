@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Manrope:wght@200..800&display=swap');
+
+@theme {
+  --font-serif: "Newsreader", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  --color-primary: #00478d;
+  --color-primary-container: #005eb8;
+  --color-on-primary: #ffffff;
+  
+  --color-secondary: #4a5f83;
+  --color-secondary-container: #c0d5ff;
+  
+  --color-tertiary: #793100;
+  --color-tertiary-container: #9f4300;
+  
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  
+  --color-surface: #f8f9fa;
+  --color-surface-container: #edeeef;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e7e8e9;
+  --color-surface-container-highest: #e1e3e4;
+  
+  --color-outline: #727783;
+  --color-outline-variant: #c2c6d4;
+  
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #424752;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-surface text-on-surface;
+  }
+}
+
+.glass-effect {
+  @apply backdrop-blur-xl bg-white/70 border border-white/20;
+}

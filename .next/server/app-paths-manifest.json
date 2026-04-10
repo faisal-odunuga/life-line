@@ -1,0 +1,7 @@
+{
+  "/api/triage/route": "app/api/triage/route.js",
+  "/page": "app/page.js",
+  "/triage/page": "app/triage/page.js",
+  "/records/page": "app/records/page.js",
+  "/notifications/page": "app/notifications/page.js"
+}
