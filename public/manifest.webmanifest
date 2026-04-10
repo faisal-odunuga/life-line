@@ -1,0 +1,9 @@
+{
+  "name": "Life Line Clinical",
+  "short_name": "LifeLine",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0b4ea2",
+  "description": "AI-assisted clinical triage and records with offline support"
+}
